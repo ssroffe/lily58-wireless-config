@@ -70,11 +70,11 @@
 
             display-name = "numsym";
             bindings = <
-&kp ESC    &kp F1      &kp F2     &kp F3     &kp F4                &kp F5                                         &kp F6     &kp F7     &kp F8    &kp F9  &kp F10    &kp F11
-&kp TAB    &kp AMPS    &kp STAR   &kp GRAVE  &kp LBKT              &kp RBKT                                       &kp MINUS  &kp N7     &kp N8    &kp N9  &kp EQUAL  &kp BSPC
-&kp BSLH   &kp DOLLAR  &kp PRCNT  &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                          &kp PLUS   &kp N4     &kp N5    &kp N6  &kp STAR   &kp DOT
-&kp LSHFT  &kp EXCL    &kp AT     &kp POUND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SPACE    &kp DEL    &kp UNDER  &kp N1     &kp N2    &kp N3  &kp FSLH   &kp LCTRL
-                                  &kp LALT   &kp LCTRL             &trans                 &kp SPACE    &kp ENTER  &kp N0     &kp LSHFT  &kp RGUI
+&kp ESC    &kp F1      &kp F2     &kp F3     &kp F4                &kp F5                                         &kp F6     &kp F7     &kp F8         &kp F9  &kp F10    &kp F11
+&kp TAB    &kp AMPS    &kp STAR   &kp GRAVE  &kp LBKT              &kp RBKT                                       &kp MINUS  &kp N7     &kp N8         &kp N9  &kp EQUAL  &kp F12
+&kp BSLH   &kp DOLLAR  &kp PRCNT  &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                          &kp PLUS   &kp N4     &kp N5         &kp N6  &kp STAR   &kp DOT
+&kp LSHFT  &kp EXCL    &kp AT     &kp POUND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SPACE    &kp DEL    &kp UNDER  &kp N1     &kp N2         &kp N3  &kp FSLH   &kp LCTRL
+                                  &kp LALT   &kp LCTRL             &trans                 &kp SPACE    &kp ENTER  &kp N0     &kp LSHFT  &kp BACKSPACE
             >;
         };
 
