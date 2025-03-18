@@ -131,11 +131,11 @@
 
         nav_left {
             bindings = <
-&kp ESC    &kp F6    &kp F7    &kp F8     &kp F9     &kp F10                      &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC
-&kp LCTRL  &trans    &kp UP    &trans     &kp PG_UP  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB    &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp F1    &kp F2    &kp F3     &kp F4     &kp F5     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                               &kp LCTRL  &kp LALT   &kp SPACE  &trans    &trans  &trans  &trans  &trans
+&kp ESC    &kp F6    &kp F7    &kp F8     &kp F9     &kp F10                              &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC
+&kp LCTRL  &trans    &kp UP    &trans     &kp PG_UP  &trans                               &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN  &trans                               &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp F1    &kp F2    &kp F3     &kp F4     &kp F5          &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                               &kp LCTRL  &kp LALT   &kp LEFT_SHIFT  &kp SPACE    &trans  &trans  &trans  &trans
             >;
 
             label = "nav_left";
