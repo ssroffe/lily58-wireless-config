@@ -13,18 +13,18 @@
 #
 ---
 include:
-  - board: xiao_ble//zmk
+  - board: seeeduino_xiao_ble
     shield: lily58_dongle prospector_adapter
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: nice_nano//zmk
+  - board: nice_nano_v2
     shield: lily58_left nice_view_adapter nice_view
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-  - board: nice_nano//zmk
+  - board: nice_nano_v2
     shield: lily58_right nice_view_adapter nice_view
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
-  - board: nice_nano//zmk
+  - board: seeeduino_xiao_ble
     shield: settings_reset
-  - board: xiao_ble//zmk
+  - board: nice_nano_v2
     shield: settings_reset
