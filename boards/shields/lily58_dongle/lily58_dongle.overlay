@@ -1,0 +1,14 @@
+#include <dt-bindings/zmk/matrix_transform.h>
+
+/ {
+    chosen {
+        zmk,kscan = &mock_kscan;
+    };
+
+    mock_kscan: mock_kscan {
+        compatible = "zmk,kscan-mock";
+        label = "MOCK_KSCAN";
+        rows = <0>;
+        columns = <0>;
+    };
+};
